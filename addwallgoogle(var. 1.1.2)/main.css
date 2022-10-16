@@ -1,0 +1,21 @@
+body#gsr {
+    background-image: var(--background-url) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+div#appbar {
+    background-color: transparent !important;
+}
+
+.rsGxI.Ww4FFb,
+.Ww4FFb,
+.dG2XIf {
+    background-color: transparent !important;
+}
+
+.main {
+    background-color: #ffffffaf !important;
+}
