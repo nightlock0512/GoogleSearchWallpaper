@@ -1,0 +1,65 @@
+body#gsr {
+    background-image: var(--background-url) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+body#gsr::before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--background-wrap-color);
+    z-index: 0;
+}
+
+
+div#appbar {
+    background-color: transparent !important;
+}
+
+.rsGxI.Ww4FFb,
+.Ww4FFb,
+.dG2XIf {
+    background-color: transparent !important;
+}
+
+/* .main {
+    background-color: var(--background-wrap-color) !important;
+} */
+
+
+#b_content {
+    background-image: var(--background-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: opacity(20%) blur(10px);
+}
+
+#b_content::before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--background-wrap-color);
+    z-index: -1;
+}
+
+.b_algo,
+.b_ans {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+
+:root {
+    --background-url: "";
+    --background-wrap-color: "";
+}
